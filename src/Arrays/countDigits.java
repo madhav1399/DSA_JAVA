@@ -15,11 +15,16 @@ public class countDigits {
         }
         return cnt;
     }
+    int convertToString(){
+        String s = Integer.toString(num);
+        return s.length();
+    }
 }
 
 class Main{
     public static void main(String args[]){
-        countDigits c = new countDigits(1);
+        countDigits c = new countDigits(100);
         System.out.println(c.count());
+        //System.out.println(c.convertToString());
     }
 }
