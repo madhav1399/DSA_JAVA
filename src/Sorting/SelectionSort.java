@@ -15,11 +15,11 @@ public class SelectionSort {
     int n = arr.length;
     int mini,min_ind;
     for(int i=0;i<n;i++){
-        mini = arr[i];
+        //mini = arr[i];
         min_ind=i;
         for(int j=i;j<n;j++){
-            if(arr[j]<mini){
-                mini = arr[j];
+            if(arr[j]<arr[min_ind]){
+                //mini = arr[j];
                 min_ind = j;
             }
 
