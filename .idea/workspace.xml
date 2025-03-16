@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="task 14_03_25">
+    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="changes">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Arrays/countDigits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Arrays/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/countDigits.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Arrays/countDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/countDigits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,15 +38,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BubbleSort.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.SelectionSort.executor": "Run",
     "Application.Test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "E:/coding_practice/JAVA/DSA_JAVA/src/Main.java"
+    "onboarding.tips.debug.path": "E:/coding_practice/JAVA/DSA_JAVA/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,11 +84,20 @@
       <option name="project" value="LOCAL" />
       <updated>1741982510531</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changes">
+      <option name="closed" value="true" />
+      <created>1742015663131</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742015663131</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="task 14_03_25" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 14_03_25" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
 </project>

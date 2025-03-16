@@ -1,6 +1,6 @@
 package Arrays;
 
-public class countDigits {
+class countDigits {
     private int num;
 
     countDigits(int num){
@@ -22,7 +22,7 @@ public class countDigits {
 }
 
 class Main{
-    public static void main(String args[]){
+    public static void main(String[] args){
         countDigits c = new countDigits(100);
         System.out.println(c.count());
         //System.out.println(c.convertToString());
