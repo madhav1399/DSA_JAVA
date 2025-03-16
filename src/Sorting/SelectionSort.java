@@ -14,7 +14,7 @@ public class SelectionSort {
     void sssort(int[] arr){
     int n = arr.length;
     int mini,min_ind;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n-1;i++){
         //mini = arr[i];
         min_ind=i;
         for(int j=i;j<n;j++){
