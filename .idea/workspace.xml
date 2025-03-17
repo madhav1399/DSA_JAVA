@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding changes in selectionSort and InsertionSort">
-      <change afterPath="$PROJECT_DIR$/src/Sorting/MergeSort.java" afterDir="false" />
+    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding MergeSort">
+      <change afterPath="$PROJECT_DIR$/src/Sorting/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,8 @@
     "Application.BubbleSort.executor": "Run",
     "Application.InsertionSort.executor": "Run",
     "Application.Main.executor": "Run",
-    "Application.MergeSort.executor": "Run",
+    "Application.MergeSort.executor": "Debug",
+    "Application.QuickSort.executor": "Run",
     "Application.SelectionSort.executor": "Run",
     "Application.Test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -114,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742145829360</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding MergeSort">
+      <option name="closed" value="true" />
+      <created>1742153885940</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742153885940</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +142,7 @@
     <MESSAGE value="changes" />
     <MESSAGE value="adding BubbleSort" />
     <MESSAGE value="adding changes in selectionSort and InsertionSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding changes in selectionSort and InsertionSort" />
+    <MESSAGE value="adding MergeSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding MergeSort" />
   </component>
 </project>
