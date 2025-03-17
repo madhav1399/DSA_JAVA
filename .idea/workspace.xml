@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding QuickSort">
-      <change afterPath="$PROJECT_DIR$/src/Collections/LearnArrayDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections/LearnArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections/LearnLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections/LearnPriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections/LearnStack.java" afterDir="false" />
+    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding Collections">
+      <change afterPath="$PROJECT_DIR$/src/Collections/LearnArraysClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/LearnCollectionsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/LearnMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/LearnSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +41,12 @@
     "Application.InsertionSort.executor": "Run",
     "Application.LearnArrayDeque.executor": "Run",
     "Application.LearnArrayList.executor": "Run",
+    "Application.LearnArraysClass.executor": "Run",
+    "Application.LearnCollectionsClass.executor": "Run",
     "Application.LearnLinkedList.executor": "Run",
+    "Application.LearnMap.executor": "Run",
     "Application.LearnPriorityQueue.executor": "Run",
+    "Application.LearnSet.executor": "Run",
     "Application.LearnStack.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MergeSort.executor": "Debug",
@@ -140,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742201993794</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding Collections">
+      <option name="closed" value="true" />
+      <created>1742233607156</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742233607156</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +172,7 @@
     <MESSAGE value="adding changes in selectionSort and InsertionSort" />
     <MESSAGE value="adding MergeSort" />
     <MESSAGE value="adding QuickSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding QuickSort" />
+    <MESSAGE value="adding Collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding Collections" />
   </component>
 </project>
