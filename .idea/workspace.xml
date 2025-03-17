@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding MergeSort">
-      <change afterPath="$PROJECT_DIR$/src/Sorting/QuickSort.java" afterDir="false" />
+    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding QuickSort">
+      <change afterPath="$PROJECT_DIR$/src/Collections/LearnArrayDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/LearnArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/LearnLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/LearnPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/LearnStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +40,11 @@
   "keyToString": {
     "Application.BubbleSort.executor": "Run",
     "Application.InsertionSort.executor": "Run",
+    "Application.LearnArrayDeque.executor": "Run",
+    "Application.LearnArrayList.executor": "Run",
+    "Application.LearnLinkedList.executor": "Run",
+    "Application.LearnPriorityQueue.executor": "Run",
+    "Application.LearnStack.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MergeSort.executor": "Debug",
     "Application.QuickSort.executor": "Run",
@@ -123,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742153885940</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding QuickSort">
+      <option name="closed" value="true" />
+      <created>1742201993794</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742201993794</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +160,7 @@
     <MESSAGE value="adding BubbleSort" />
     <MESSAGE value="adding changes in selectionSort and InsertionSort" />
     <MESSAGE value="adding MergeSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding MergeSort" />
+    <MESSAGE value="adding QuickSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding QuickSort" />
   </component>
 </project>
