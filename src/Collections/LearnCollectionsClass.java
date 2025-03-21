@@ -15,6 +15,9 @@ public class LearnCollectionsClass {
         System.out.println("max ele: "+Collections.max(list));
         System.out.println("Frequecy: "+Collections.frequency(list,9));
         Collections.sort(list);
+        System.out.println(list);
+        Collections.swap(list,0,2);
+        System.out.println(list);
        // Collections.reverse(list);
         Collections.sort(list,Comparator.reverseOrder());
         System.out.println(list);
