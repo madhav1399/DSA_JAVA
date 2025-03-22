@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding Collections">
-      <change afterPath="$PROJECT_DIR$/src/CustomSort/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
+    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding LL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collections/LearnCollectionsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/LearnCollectionsClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,36 +46,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BubbleSort.executor": "Run",
-    "Application.InsertionSort.executor": "Run",
-    "Application.LearnArrayDeque.executor": "Run",
-    "Application.LearnArrayList.executor": "Run",
-    "Application.LearnArraysClass.executor": "Run",
-    "Application.LearnCollectionsClass.executor": "Run",
-    "Application.LearnLinkedList.executor": "Run",
-    "Application.LearnMap.executor": "Run",
-    "Application.LearnPriorityQueue.executor": "Run",
-    "Application.LearnSet.executor": "Run",
-    "Application.LearnStack.executor": "Run",
-    "Application.LinkedList.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MergeSort.executor": "Debug",
-    "Application.QuickSort.executor": "Run",
-    "Application.SelectionSort.executor": "Run",
-    "Application.Student.executor": "Run",
-    "Application.Test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "E:/coding_practice/JAVA/DSA_JAVA/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LearnArrayDeque.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LearnArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LearnArraysClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LearnCollectionsClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LearnLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LearnMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LearnPriorityQueue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LearnSet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LearnStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/coding_practice/JAVA/DSA_JAVA/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -174,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742243582540</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="adding LL">
+      <option name="closed" value="true" />
+      <created>1742521743722</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742521743722</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +202,7 @@
     <MESSAGE value="adding MergeSort" />
     <MESSAGE value="adding QuickSort" />
     <MESSAGE value="adding Collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding Collections" />
+    <MESSAGE value="adding LL" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding LL" />
   </component>
 </project>

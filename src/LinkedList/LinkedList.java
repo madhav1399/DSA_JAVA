@@ -90,16 +90,46 @@ public class LinkedList {
         node.data = node.next.data;
         node.next = null;
     }
+    static Node revIterative(Node head){
+        if(head == null || head.next == null) return head;
+
+        Node prev = null;
+        Node curr = head;
+        head = head.next;
+
+        while(head != null){
+            curr.next = prev;
+            prev = curr;
+            curr = head;
+            head = head.next;
+        }
+        // head == null, curr = head -1 amd prev = curr -1
+
+        curr.next = prev;
+
+        return curr;
+    }
+    static Node revRecursion(Node head){
+        if(head==null || head.next==null) return head;
+
+        Node newHead = revRecursion(head.next);
+        Node front = head.next;
+        front.next = head;
+        head.next = null;
+        return newHead;
+    }
     public static void main(String[] args){
-        int arr[] = {1,2,3,4,5};
+        int arr[] = {1,2,3,4,4,-1,5};
         Node head = convert2LL(arr);
         System.out.println("Length of LL: "+findLengthofLL(head));
-        head = insertAtFirstofLL(head,100);
+       // head = insertAtFirstofLL(head,100);
+      //  printLL(head);
+       // head = insertAtLastofLL(head,-100);
+       // printLL(head);
+       // head = insertAtGivenPosofLL(head,20,6);
         printLL(head);
-        head = insertAtLastofLL(head,-100);
-        printLL(head);
-        head = insertAtGivenPosofLL(head,20,6);
-        printLL(head);
-        //deleteNode();
+//        deleteNode();
+        //printLL(revIterative(head));
+        printLL(revRecursion(head));
     }
 }
