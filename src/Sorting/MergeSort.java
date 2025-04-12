@@ -2,6 +2,27 @@ package Sorting;
 import java.util.*;
 public class MergeSort {
 
+    public static void swap(int[] arr, int i, int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+    public static void MergeInPlace(int[] arr, int l, int mid, int r){
+        int i=mid;
+        int j=mid+1;
+
+        while(i>=l && j<=r){
+            if(arr[i]>arr[j]) {
+                swap(arr, i, j);
+                i--;
+                j++;
+            }
+            else
+                break;
+        }
+        MSort(arr,l,mid);
+        MSort(arr,mid+1,r);
+    }
     public static void Merge(int[] arr, int l, int mid, int r){
         int i=l, j = mid+1;
         //int n = arr.length;
@@ -28,14 +49,15 @@ public class MergeSort {
             arr[k]=temp[k-l];
         }
     }
-    public void MSort(int[] arr, int l, int r){
+    public static void MSort(int[] arr, int l, int r){
         //int n = arr.length;
         if(l==r) return;
         int mid = l+(r-l)/2;
 
         MSort(arr,l,mid);
         MSort(arr,mid+1,r);
-        Merge(arr,l,mid,r);
+        //Merge(arr,l,mid,r);
+        MergeInPlace(arr,l,mid,r);
     }
 
     public static void main(String[] args){
