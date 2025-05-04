@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding Streams">
+    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding gasStations">
+      <change afterPath="$PROJECT_DIR$/src/Median/MedianTwoSortedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +64,7 @@
     "Application.LinkedList.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MaxSubarraySum.executor": "Run",
+    "Application.MedianTwoSortedArrays.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.ParallelStream.executor": "Run",
     "Application.QuickSort.executor": "Run",
@@ -82,7 +84,20 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.gasStations">
+  <component name="RunManager" selected="Application.MedianTwoSortedArrays">
+    <configuration name="MedianTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Median.MedianTwoSortedArrays" />
+      <module name="DSA_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Median.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParallelStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stream.ParallelStream" />
       <module name="DSA_JAVA" />
@@ -124,6 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MedianTwoSortedArrays" />
         <item itemvalue="Application.gasStations" />
         <item itemvalue="Application.ParallelStream" />
         <item itemvalue="Application.TerminalOps" />
@@ -266,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744482447734</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="adding gasStations">
+      <option name="closed" value="true" />
+      <created>1746334737175</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1746334737175</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,6 +315,7 @@
     <MESSAGE value="adding LL" />
     <MESSAGE value="adding Kadanes" />
     <MESSAGE value="adding Streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding Streams" />
+    <MESSAGE value="adding gasStations" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding gasStations" />
   </component>
 </project>
