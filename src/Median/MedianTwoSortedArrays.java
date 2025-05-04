@@ -52,8 +52,10 @@ public class MedianTwoSortedArrays {
     public static void main(String args []){
         //int x [] = {23,26,31,35};
         //int y [] = {3,5,7,9,11,16};
-        int x [] = {1,3,8,9,15};
-        int y[] = {7,11,18,19,21,25};
+        //int x [] = {1,3,8,9,15};
+        //int y[] = {7,11,18,19,21,25};
+        int x [] = {2};
+        int y [] = {};
         System.out.println(FindMedianTwoSorted(x,y));
     }
 }
