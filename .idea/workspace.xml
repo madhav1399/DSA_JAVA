@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding Kadanes">
-      <change afterPath="$PROJECT_DIR$/src/Stream/ParallelStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stream/TerminalOps.java" afterDir="false" />
+    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding Streams">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,22 +64,25 @@
     "Application.Main.executor": "Run",
     "Application.MaxSubarraySum.executor": "Run",
     "Application.MergeSort.executor": "Run",
+    "Application.ParallelStream.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.SelectionSort.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.TerminalOps.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.gasStations.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Projects/learningspringboot",
     "onboarding.tips.debug.path": "E:/coding_practice/JAVA/DSA_JAVA/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ParallelStream">
+  <component name="RunManager" selected="Application.gasStations">
     <configuration name="ParallelStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stream.ParallelStream" />
       <module name="DSA_JAVA" />
@@ -109,8 +109,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="gasStations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.gasStations" />
+      <module name="DSA_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.gasStations" />
         <item itemvalue="Application.ParallelStream" />
         <item itemvalue="Application.TerminalOps" />
       </list>
@@ -236,7 +250,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743943981371</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adding Kadanes">
+      <option name="closed" value="true" />
+      <created>1744482418495</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744482418495</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adding Streams">
+      <option name="closed" value="true" />
+      <created>1744482447734</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744482447734</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,6 +290,7 @@
     <MESSAGE value="adding Collections" />
     <MESSAGE value="adding LL" />
     <MESSAGE value="adding Kadanes" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding Kadanes" />
+    <MESSAGE value="adding Streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding Streams" />
   </component>
 </project>
