@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding median of two Sorted arrays of unequal length">
-      <change afterPath="$PROJECT_DIR$/src/Greedy/FractionalKnapsack.java" afterDir="false" />
+    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding Greedy algorithms">
+      <change afterPath="$PROJECT_DIR$/src/Greedy/CoinChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,45 +46,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DemoStream.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InsertionSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntermediateOps.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LearnArrayDeque.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LearnArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LearnArraysClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LearnCollectionsClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LearnLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LearnMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LearnPriorityQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LearnSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LearnStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxSubarraySum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MedianTwoSortedArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParallelStream.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TerminalOps.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.gasStations.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Projects/learningspringboot&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/coding_practice/JAVA/DSA_JAVA/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BubbleSort.executor": "Run",
+    "Application.CoinChange.executor": "Run",
+    "Application.DemoStream.executor": "Run",
+    "Application.FractionalKnapsack.executor": "Run",
+    "Application.InsertionSort.executor": "Run",
+    "Application.IntermediateOps.executor": "Run",
+    "Application.LearnArrayDeque.executor": "Run",
+    "Application.LearnArrayList.executor": "Run",
+    "Application.LearnArraysClass.executor": "Run",
+    "Application.LearnCollectionsClass.executor": "Run",
+    "Application.LearnLinkedList.executor": "Run",
+    "Application.LearnMap.executor": "Run",
+    "Application.LearnPriorityQueue.executor": "Run",
+    "Application.LearnSet.executor": "Run",
+    "Application.LearnStack.executor": "Run",
+    "Application.LinkedList.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MaxSubarraySum.executor": "Run",
+    "Application.MedianTwoSortedArrays.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "Application.ParallelStream.executor": "Run",
+    "Application.QuickSort.executor": "Run",
+    "Application.SelectionSort.executor": "Run",
+    "Application.Student.executor": "Run",
+    "Application.TerminalOps.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.gasStations.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Projects/learningspringboot",
+    "onboarding.tips.debug.path": "E:/coding_practice/JAVA/DSA_JAVA/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.FractionalKnapsack">
+}]]></component>
+  <component name="RunManager" selected="Application.CoinChange">
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy.CoinChange" />
+      <module name="DSA_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FractionalKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Greedy.FractionalKnapsack" />
       <module name="DSA_JAVA" />
@@ -124,19 +139,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TerminalOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.TerminalOps" />
-      <module name="DSA_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="gasStations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch.gasStations" />
       <module name="DSA_JAVA" />
@@ -152,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.FractionalKnapsack" />
         <item itemvalue="Application.MedianTwoSortedArrays" />
         <item itemvalue="Application.gasStations" />
         <item itemvalue="Application.ParallelStream" />
-        <item itemvalue="Application.TerminalOps" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746364170002</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="adding Greedy algorithms">
+      <option name="closed" value="true" />
+      <created>1746496857053</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1746496857053</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,6 +357,7 @@
     <MESSAGE value="adding Streams" />
     <MESSAGE value="adding gasStations" />
     <MESSAGE value="adding median of two Sorted arrays of unequal length" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding median of two Sorted arrays of unequal length" />
+    <MESSAGE value="adding Greedy algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding Greedy algorithms" />
   </component>
 </project>
