@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding Greedy algorithms">
-      <change afterPath="$PROJECT_DIR$/src/Greedy/CoinChange.java" afterDir="false" />
+    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding Coin Change works only for indian denominations&#10;10 20 50 100">
+      <change afterPath="$PROJECT_DIR$/src/Greedy/ValidParanthesis1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/ValidParenthesis2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +75,8 @@
     "Application.Student.executor": "Run",
     "Application.TerminalOps.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.ValidParanthesis1.executor": "Run",
+    "Application.ValidParenthesis2.executor": "Debug",
     "Application.gasStations.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -86,7 +89,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CoinChange">
+  <component name="RunManager" selected="Application.ValidParenthesis2">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Greedy.CoinChange" />
       <module name="DSA_JAVA" />
@@ -126,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stream.ParallelStream" />
+    <configuration name="ValidParanthesis1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy.ValidParanthesis1" />
       <module name="DSA_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stream.*" />
+          <option name="PATTERN" value="Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gasStations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.gasStations" />
+    <configuration name="ValidParenthesis2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy.ValidParenthesis2" />
       <module name="DSA_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="PATTERN" value="Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidParenthesis2" />
+        <item itemvalue="Application.ValidParanthesis1" />
         <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.FractionalKnapsack" />
         <item itemvalue="Application.MedianTwoSortedArrays" />
-        <item itemvalue="Application.gasStations" />
-        <item itemvalue="Application.ParallelStream" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746496857053</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="adding Coin Change works only for indian denominations&#10;10 20 50 100">
+      <option name="closed" value="true" />
+      <created>1746523023850</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1746523023850</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,6 +369,7 @@
     <MESSAGE value="adding gasStations" />
     <MESSAGE value="adding median of two Sorted arrays of unequal length" />
     <MESSAGE value="adding Greedy algorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding Greedy algorithms" />
+    <MESSAGE value="adding Coin Change works only for indian denominations&#10;10 20 50 100" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding Coin Change works only for indian denominations&#10;10 20 50 100" />
   </component>
 </project>
