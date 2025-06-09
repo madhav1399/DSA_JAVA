@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding Coin Change works only for indian denominations&#10;10 20 50 100">
-      <change afterPath="$PROJECT_DIR$/src/Greedy/ValidParanthesis1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/ValidParenthesis2.java" afterDir="false" />
+    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding ValidParanthesis">
+      <change afterPath="$PROJECT_DIR$/src/Heaps/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heaps/MaximumSumCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Subset_Sum1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +52,11 @@
   "keyToString": {
     "Application.BubbleSort.executor": "Run",
     "Application.CoinChange.executor": "Run",
+    "Application.CountSubsequences.executor": "Run",
     "Application.DemoStream.executor": "Run",
     "Application.FractionalKnapsack.executor": "Run",
+    "Application.Heap.executor": "Run",
+    "Application.Implementations.executor": "Run",
     "Application.InsertionSort.executor": "Run",
     "Application.IntermediateOps.executor": "Run",
     "Application.LearnArrayDeque.executor": "Run",
@@ -67,16 +71,20 @@
     "Application.LinkedList.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MaxSubarraySum.executor": "Run",
+    "Application.MaximumSumCombinations.executor": "Run",
     "Application.MedianTwoSortedArrays.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.ParallelStream.executor": "Run",
+    "Application.PrintOneSubsequence.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.SelectionSort.executor": "Run",
     "Application.Student.executor": "Run",
+    "Application.Subseqsum.executor": "Run",
+    "Application.Subsequences.executor": "Run",
     "Application.TerminalOps.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.ValidParanthesis1.executor": "Run",
-    "Application.ValidParenthesis2.executor": "Debug",
+    "Application.ValidParenthesis2.executor": "Run",
     "Application.gasStations.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -89,13 +97,13 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ValidParenthesis2">
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greedy.CoinChange" />
+  <component name="RunManager" selected="Application.Subset_Sum1">
+    <configuration name="CountSubsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.CountSubsequences" />
       <module name="DSA_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Greedy.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FractionalKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greedy.FractionalKnapsack" />
+    <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heaps.Heap" />
       <module name="DSA_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Greedy.*" />
+          <option name="PATTERN" value="Heaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedianTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Median.MedianTwoSortedArrays" />
+    <configuration name="MaximumSumCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heaps.MaximumSumCombinations" />
       <module name="DSA_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Median.*" />
+          <option name="PATTERN" value="Heaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParanthesis1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greedy.ValidParanthesis1" />
+    <configuration name="PrintOneSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.PrintOneSubsequence" />
       <module name="DSA_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Greedy.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParenthesis2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greedy.ValidParenthesis2" />
+    <configuration name="Subset_Sum1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Subset_Sum1" />
       <module name="DSA_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Greedy.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidParenthesis2" />
-        <item itemvalue="Application.ValidParanthesis1" />
-        <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.FractionalKnapsack" />
-        <item itemvalue="Application.MedianTwoSortedArrays" />
+        <item itemvalue="Application.Subset_Sum1" />
+        <item itemvalue="Application.MaximumSumCombinations" />
+        <item itemvalue="Application.Heap" />
+        <item itemvalue="Application.CountSubsequences" />
+        <item itemvalue="Application.PrintOneSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +349,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746523023850</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="adding ValidParanthesis">
+      <option name="closed" value="true" />
+      <created>1746643064476</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1746643064476</updated>
+    </task>
+    <task id="LOCAL-00022" summary="adding ValidParanthesis">
+      <option name="closed" value="true" />
+      <created>1746643084969</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1746643084969</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -370,6 +394,7 @@
     <MESSAGE value="adding median of two Sorted arrays of unequal length" />
     <MESSAGE value="adding Greedy algorithms" />
     <MESSAGE value="adding Coin Change works only for indian denominations&#10;10 20 50 100" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding Coin Change works only for indian denominations&#10;10 20 50 100" />
+    <MESSAGE value="adding ValidParanthesis" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding ValidParanthesis" />
   </component>
 </project>
