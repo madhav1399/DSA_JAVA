@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding ValidParanthesis">
-      <change afterPath="$PROJECT_DIR$/src/Heaps/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heaps/MaximumSumCombinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Subset_Sum1.java" afterDir="false" />
+    <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding recursion and heaps">
+      <change afterPath="$PROJECT_DIR$/src/Trees/BinaryTrees/ChildrenSumProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tries/Trie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BubbleSort.executor": "Run",
+    "Application.ChildrenSumProperty.executor": "Run",
     "Application.CoinChange.executor": "Run",
     "Application.CountSubsequences.executor": "Run",
     "Application.DemoStream.executor": "Run",
@@ -81,6 +81,7 @@
     "Application.Student.executor": "Run",
     "Application.Subseqsum.executor": "Run",
     "Application.Subsequences.executor": "Run",
+    "Application.Subset_Sum1.executor": "Run",
     "Application.TerminalOps.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.ValidParanthesis1.executor": "Run",
@@ -94,10 +95,24 @@
     "onboarding.tips.debug.path": "E:/coding_practice/JAVA/DSA_JAVA/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "leetcode.id"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Subset_Sum1">
+  <component name="RunManager" selected="Application.ChildrenSumProperty">
+    <configuration name="ChildrenSumProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.BinaryTrees.ChildrenSumProperty" />
+      <module name="DSA_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.BinaryTrees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountSubsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.CountSubsequences" />
       <module name="DSA_JAVA" />
@@ -137,19 +152,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintOneSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.PrintOneSubsequence" />
-      <module name="DSA_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Subset_Sum1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.Subset_Sum1" />
       <module name="DSA_JAVA" />
@@ -165,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChildrenSumProperty" />
         <item itemvalue="Application.Subset_Sum1" />
         <item itemvalue="Application.MaximumSumCombinations" />
         <item itemvalue="Application.Heap" />
         <item itemvalue="Application.CountSubsequences" />
-        <item itemvalue="Application.PrintOneSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +367,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746643084969</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="adding recursion and heaps">
+      <option name="closed" value="true" />
+      <created>1749470107914</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1749470107914</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -395,6 +405,7 @@
     <MESSAGE value="adding Greedy algorithms" />
     <MESSAGE value="adding Coin Change works only for indian denominations&#10;10 20 50 100" />
     <MESSAGE value="adding ValidParanthesis" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding ValidParanthesis" />
+    <MESSAGE value="adding recursion and heaps" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding recursion and heaps" />
   </component>
 </project>
