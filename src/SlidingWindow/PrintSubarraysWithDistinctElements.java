@@ -15,6 +15,7 @@ public class PrintSubarraysWithDistinctElements {
             for(int j=i;j<n;j++){
                 if(set.contains(arr[j]))
                     break;
+
                 set.add(arr[j]);
 
 
