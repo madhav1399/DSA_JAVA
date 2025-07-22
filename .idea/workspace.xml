@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99c37a48-bf18-4f48-a9d6-996e3ad1aaf5" name="Changes" comment="adding Binary Trees">
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/CountKLenSubstringsNoRepeatChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/PrintSubarraysWithDistinctElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/SmallestSubarraySumK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,9 +77,11 @@
     "Application.MergeSort.executor": "Run",
     "Application.ParallelStream.executor": "Run",
     "Application.PrintOneSubsequence.executor": "Run",
+    "Application.PrintSubarraysWithDistinctElements.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.RemoveDup.executor": "Run",
     "Application.SelectionSort.executor": "Run",
+    "Application.SmallestSubarraySumK.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.Subseqsum.executor": "Run",
     "Application.Subsequences.executor": "Run",
@@ -100,7 +103,7 @@
     "settings.editor.selected.configurable": "leetcode.id"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CountKLenSubstringsNoRepeatChars">
+  <component name="RunManager" selected="Application.PrintSubarraysWithDistinctElements">
     <configuration name="ChildrenSumProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.BinaryTrees.ChildrenSumProperty" />
       <module name="DSA_JAVA" />
@@ -127,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSumCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heaps.MaximumSumCombinations" />
+    <configuration name="PrintSubarraysWithDistinctElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindow.PrintSubarraysWithDistinctElements" />
       <module name="DSA_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heaps.*" />
+          <option name="PATTERN" value="SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subset_Sum1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Subset_Sum1" />
+    <configuration name="SmallestSubarraySumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindow.SmallestSubarraySumK" />
       <module name="DSA_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintSubarraysWithDistinctElements" />
+        <item itemvalue="Application.SmallestSubarraySumK" />
         <item itemvalue="Application.CountKLenSubstringsNoRepeatChars" />
         <item itemvalue="Application.RemoveDup" />
         <item itemvalue="Application.ChildrenSumProperty" />
-        <item itemvalue="Application.Subset_Sum1" />
-        <item itemvalue="Application.MaximumSumCombinations" />
       </list>
     </recent_temporary>
   </component>
@@ -384,7 +387,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751178148220</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="adding Binary Trees">
+      <option name="closed" value="true" />
+      <created>1753033229986</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1753033229986</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
